@@ -11,3 +11,10 @@
     -webkit-text-stroke: 1px black;
     color: transparent;
 }
+
+@media all and (max-width: 576px) {
+    .carousel-sm-responsive {
+        object-fit: cover;
+        height: 187px;
+    }
+}

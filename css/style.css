@@ -17,6 +17,9 @@
         object-fit: cover;
         height: 187px;
     }
+    .boton-sm-responsive {
+        width: 25px;
+    }
 }
 
 #logo {

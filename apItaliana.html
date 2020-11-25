@@ -100,26 +100,44 @@
                         });
                     </script>
                 </div>
-                <h3>Cosas que NO debemos hacer</h3>
-                <p>Ante esta trampa, si bien el peón <strong>e5</strong> queda desprotegido, <strong class="text-danger">NO debemos jugar Ce5</strong>, ya que de esa forma las Negras jugarán <strong>Dg5</strong>, amenazando al <strong>Ce5</strong> y al peón
-                    <strong>g2</strong>.
-                    <p>
-                        Si pensamos que podríamos salvar la posición atacando con <strong>Cf7</strong>, amenazando a la torre y la dama, estamos perdidos, ya que el negro jugaría <strong>Dg2</strong>, comiendo el peón <strong>g2</strong> y amenazando
-                        la torre y al peón <strong>d4</strong>. Si blanco trata de salvar la Torre moviendo <strong>Tf1</strong>, la dama negra irá poer el peón central, el <strong>e4</strong>, dando jaque al Rey blanco.
-                    </p>
-                    <p>
-                        En esta posición, blanco puede perderse la dama moviéndola a <strong>e2</strong>. Y en caso de defender el jaque con <strong>Ae2</strong>, Negro dará jaque mate con <strong>Cf3</strong>.
-                    </p>
+                <div>
+                    <h3>Cosas que NO debemos hacer</h3>
+                    <p>Ante esta trampa, si bien el peón <strong>e5</strong> queda desprotegido, <strong class="text-danger">NO debemos jugar Ce5</strong>, ya que de esa forma las Negras jugarán <strong>Dg5</strong>, amenazando al <strong>Ce5</strong> y
+                        al peón <strong>g2</strong>.</p>
+                    <p>Si pensamos que podríamos salvar la posición atacando con <strong>Cf7</strong> amenazando a la torre y la dama, estamos perdidos, ya que el negro jugaría <strong>Dg2</strong>, comiendo el peón <strong>g2</strong> y amenazando la torre
+                        y al peón <strong>e4</strong>. Si blanco trata de salvar la Torre moviendo <strong>Tf1</strong>, la dama negra irá por el peón central, el <strong>e4</strong>, dando jaque al Rey blanco.</p>
+                    <p>En esta posición, blanco puede perderse la dama moviéndola a <strong>e2</strong>. Y en caso de defender el jaque con <strong>Ae2</strong>, Negro dará jaque mate con <strong>Cf3</strong>.</p>
                     <p>Vamos a analizar esta secuencia en el siguiente tablero:</p>
                     <small>(Puedes darle al botón Play <i class="fas fa-play"></i> del siguiente tablero, para ver la resolución de la jugada)</small>
-                    <div class="text-center">
-                        <iframe id="7236436" allowtransparency="true" frameborder="0" style="width:100%;border:none;" src="//www.chess.com/emboard?id=7236436"></iframe>
+                    <div class="text-center"><iframe id="7237088" allowtransparency="true" frameborder="0" style="width:100%;border:none;" src="//www.chess.com/emboard?id=7237088"></iframe>
                         <script>
                             window.addEventListener("message", e => {
-                                e['data'] && "7236436" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight']+30}px`)
+                                e['data'] && "7237088" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight']+30}px`)
                             });
                         </script>
                     </div>
+                </div>
+                <div>
+                    <h3 class="my-3">Cosas que PODEMOS hacer:</h3>
+                    <ol>
+                        <li>
+                            <p>Atacamos con <strong>Cxd4</strong>, peón negro comerá con <strong>exd4</strong>, y terminamos por enrocar. Luego de que negro haga algún movimiento, se puede buscar presionar con <strong>c3</strong> para eliminar liberar la
+                                casilla que ocupa el peón negro <strong>d4</strong>, para finalmente buscar el centro con el peón de la dama blanca.</p>
+                            <small>(Puedes darle al botón Play <i class="fas fa-play"></i> del siguiente tablero, para ver la resolución de la jugada)</small>
+                            <div class="text-center">
+                                <iframe id="7236436" allowtransparency="true" frameborder="0" style="width:100%;border:none;" src="//www.chess.com/emboard?id=7236436"></iframe>
+                                <script>
+                                    window.addEventListener("message", e => {
+                                        e['data'] && "7236436" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight']+30}px`)
+                                    });
+                                </script>
+                            </div>
+                        </li>
+                        <li>
+                            <p>c3, cambio de caballos, amenazando mate en f7. Negro sacará Cf6 para defender.</p>
+                        </li>
+                    </ol>
+                </div>
             </article>
         </section>
     </main>

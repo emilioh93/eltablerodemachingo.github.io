@@ -20,6 +20,15 @@
     .card-top {
         margin-top: 50px;
     }
+    .w-sm-tablero {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .w-md-lg-tablero {
+        width: 50%;
+    }
 }
 
 #logo {

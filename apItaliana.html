@@ -96,34 +96,58 @@
                     negro. Analicemos las 3 más populares:</p>
                 <ul>
                     <li>Cxd4: negras pierden calidad <a href="#cxd4" class="text-danger">Vamos a verla</a></li>
-                    <li>exd4: tiene un problema: <a href="" class="text-danger">Vamos a verla</a></li>
+                    <li>exd4: tiene un problema: <a href="#exd4" class="text-danger">Vamos a verla</a></li>
                     <li>Axd4: es la jugada más normal. Incluiremos una celada que podría realizar el blanco. <a href="" class="text-danger">Vamos a verla</a></li>
                 </ul>
-                <h3 class="my3" id="cxd4">Cxd4:</h3>
-                <div class="my-2 text-center">
-                    <small>(Puedes darle al botón Play <i class="fas fa-play"></i> del siguiente tablero, para ver la resolución de la jugada)</small></div>
-                <div class="text-center">
-                    <iframe id="7255816" allowtransparency="true" frameborder="0" class="w-sm-tablero w-md-lg-tablero" style="border:none;" src="//www.chess.com/emboard?id=7255816"></iframe>
-                    <script>
-                        window.addEventListener("message", e => {
-                            e['data'] && "7255816" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight']+30}px`)
-                        });
-                    </script>
-                </div>
-                <p>El problema para las negras de jugar Cxd4, es que, luego de intercambiar piezas, el blanco terminará ganando calidad, como podemos verlo en el siguiente tablero:</p>
-                <div class="my-2 text-center">
-                    <small>(Puedes darle al botón Play <i class="fas fa-play"></i> del siguiente tablero, para ver la resolución de la jugada. Puedes darle al botón Siguiente <i class="fas fa-chevron-right"></i> del tablero, para avanzar la jugada paso a paso)</small>
-                </div>
-                <div class="text-center">
-                    <iframe id="7255844" allowtransparency="true" frameborder="0" class="w-sm-tablero w-md-lg-tablero" style="border:none;" src="//www.chess.com/emboard?id=7255844"></iframe>
-                    <script>
-                        window.addEventListener("message", e => {
-                            e['data'] && "7255844" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight']+30}px`)
-                        });
-                    </script>
-                </div>
-                <p>5. d4 Cxd4 / 6. Cxe5 (<u>atacando f7</u>) O-O / 7. Ae3 (<u>amenazando ganar una pieza</u>) Ce6 (<u>parece la única posibilidad</u>) / 8. Axe6 (<u>si el negro come en e6, ganaría el Ac5</u>) Axe3 / 9. Axf7+ Txf7 / 10. Cxf7 Rxf7 / 11. fxe3</p>
-                <p>Las negras comieron 1 peón, 2 alfiles y un caballo. Pero las blancas comieron 2 peones, 1 alfil, 1 caballo y 1 torre. Por ende las blancas obtienen una ventaja de +3.</p>
+                <!-- Gambito Italiano: Cxd4 -->
+                <article>
+                    <h3 class="my3" id="cxd4">Cxd4:</h3>
+                    <div class="my-2 text-center">
+                        <small>(Puedes darle al botón Play <i class="fas fa-play"></i> del siguiente tablero, para ver la resolución de la jugada)</small></div>
+                    <div class="text-center">
+                        <iframe id="7255816" allowtransparency="true" frameborder="0" class="w-sm-tablero w-md-lg-tablero" style="border:none;" src="//www.chess.com/emboard?id=7255816"></iframe>
+                        <script>
+                            window.addEventListener("message", e => {
+                                e['data'] && "7255816" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight']+30}px`)
+                            });
+                        </script>
+                    </div>
+                    <p>El problema para las negras de jugar Cxd4, es que, luego de intercambiar piezas, el blanco terminará ganando calidad, como podemos verlo en el siguiente tablero:</p>
+                    <div class="my-2 text-center">
+                        <small>(Puedes darle al botón Play <i class="fas fa-play"></i> del siguiente tablero, para ver la resolución de la jugada. Puedes darle al botón Siguiente <i class="fas fa-chevron-right"></i> del tablero, para avanzar la jugada paso a paso)</small>
+                    </div>
+                    <div class="text-center">
+                        <iframe id="7255844" allowtransparency="true" frameborder="0" class="w-sm-tablero w-md-lg-tablero" style="border:none;" src="//www.chess.com/emboard?id=7255844"></iframe>
+                        <script>
+                            window.addEventListener("message", e => {
+                                e['data'] && "7255844" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight']+30}px`)
+                            });
+                        </script>
+                    </div>
+                    <p>5. d4 Cxd4 / 6. Cxe5 (<u>atacando f7</u>) O-O / 7. Ae3 (<u>amenazando ganar una pieza</u>) Ce6 (<u>parece la única posibilidad</u>) / 8. Axe6 (<u>si el negro come en e6, ganaría el Ac5</u>) Axe3 / 9. Axf7+ Txf7 / 10. Cxf7 Rxf7 / 11.
+                        fxe3
+                    </p>
+                    <p>Las negras comieron 1 peón, 2 alfiles y un caballo. Pero las blancas comieron 2 peones, 1 alfil, 1 caballo y 1 torre. Por ende las blancas obtienen una ventaja de +3.</p>
+                </article>
+                <!-- Gambito Italiano exd4 -->
+                <article>
+                    <h3 class="my3" id="exd4">exd4:</h3>
+                    <div class="my-2 text-center">
+                        <small>(Puedes darle al botón Play <i class="fas fa-play"></i> del siguiente tablero, para ver la resolución de la jugada)</small>
+                    </div>
+                    <div class="text-center">
+                        <iframe id="7296700" allowtransparency="true" frameborder="0" class="w-sm-tablero w-md-lg-tablero" style="border:none;" src="//www.chess.com/emboard?id=7296700"></iframe>
+                        <script>
+                            window.addEventListener("message", e => {
+                                e['data'] && "7296700" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight']+30}px`)
+                            });
+                        </script>
+                    </div>
+                    <p>5. d4 exd4 / 6. e5 (<u>molestando al caballo f6</u>) d5 (<u>así jugaría negro si quisiera intercambiar caballo por alfil</u>) / 7. exf6 dxc4 / 8. (<u>finalmente blanco podría jugar Te1 dando jaque o fxg7</u>)</p>
+                </article>
+                <!-- Gambito Italiano Axd4 -->
+
+
             </article>
             <article class="mt-5">
                 <h2 class="my-3" id="evans">4. Gambito Evans</h2>

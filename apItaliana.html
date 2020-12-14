@@ -97,7 +97,7 @@
                 <ul>
                     <li>Cxd4: negras pierden calidad <a href="#cxd4" class="text-danger">Vamos a verla</a></li>
                     <li>exd4: tiene un problema: <a href="#exd4" class="text-danger">Vamos a verla</a></li>
-                    <li>Axd4: es la jugada más normal. Incluiremos una celada que podría realizar el blanco. <a href="" class="text-danger">Vamos a verla</a></li>
+                    <li>Axd4: es la jugada más normal. Incluiremos una celada que podría realizar el blanco. <a href="#Axd4" class="text-danger">Vamos a verla</a></li>
                 </ul>
                 <!-- Gambito Italiano: Cxd4 -->
                 <article>
@@ -146,8 +146,23 @@
                     <p>5. d4 exd4 / 6. e5 (<u>molestando al caballo f6</u>) d5 (<u>así jugaría negro si quisiera intercambiar caballo por alfil</u>) / 7. exf6 dxc4 / 8. (<u>finalmente blanco podría jugar Te1 dando jaque o fxg7</u>)</p>
                 </article>
                 <!-- Gambito Italiano Axd4 -->
-
-
+                <article>
+                    <h3 class="my3" id="Axd4">Axd4:</h3>
+                </article>
+                <div class="my-2 text-center">
+                    <small>(Puedes darle al botón Play <i class="fas fa-play"></i> del siguiente tablero, para ver la resolución de la jugada)</small>
+                </div>
+                <div class="text-center">
+                    <iframe id="7314362" allowtransparency="true" frameborder="0" class="w-sm-tablero w-md-lg-tablero" style="border:none;" src="//www.chess.com/emboard?id=7314362"></iframe>
+                    <script>
+                        window.addEventListener("message", e => {
+                            e['data'] && "7314362" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight']+30}px`)
+                        });
+                    </script>
+                </div>
+                <p>5. d4 Axd4 / 6. Cxd4 Cxd4 (<u>normalmente acá blancas juegan f4, pero veamos la siguiente celada:</u>) / 7. Ag5 h6 / 8. Ah4 g5 / 9. f4 (<u>parece fácil ver que ganar el Ah6 no es bueno, porque blanco contestaría con fxe5, amenazando Cd4 por la Dama, Cf4 x Torre y peón y el peón f7 x el Alfil c4. Podría ser que el negro, en vez de comer el Ah4, jugara exf4</u>)
+                    exf4 / 10. (<u>es acá donde viene la celada: Txf4</u>) Txf4 (<u>las posibilidades del peón g5 son: 1-Comer Ah6. Pero blancas DxCd4; 2-Comer Tf4. Pero blancas DxCd4, clavando doblemente al caballo Cf6 por Dd4 y Ah4</u>) gxf4 / 11. Dxd4
+                    O-O (<u>si negro enroca, Ah6 come Cf6, atacando la dama. Ésta deberá moverse a e8</u>) / 12. Axf6 De8 / 13. Ah8 *(<u>acá la partida está perdida para el negro, ya que luego de cualquier movimiento, blanco moverá la dama a g7 dando mate</u>)</p>
             </article>
             <article class="mt-5">
                 <h2 class="my-3" id="evans">4. Gambito Evans</h2>

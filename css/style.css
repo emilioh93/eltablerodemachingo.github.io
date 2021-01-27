@@ -27,6 +27,9 @@ p {
     .w-sm-tablero {
         width: 100%;
     }
+    .w-sm-video {
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) {

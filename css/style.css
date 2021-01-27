@@ -3,6 +3,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    text-align: justify;
+}
+
 .bg-navFoot {
     background-color: brown;
 }
